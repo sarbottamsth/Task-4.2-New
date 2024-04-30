@@ -2,6 +2,7 @@ const express = require('express');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://sarbottam_:mongodbpassword@clusterdevelopment.20pbivv.mongodb.net/?retryWrites=true&w=majority&appName=ClusterDevelopment";
 
+
 const app = express()
 const port = process.env.port || 3000;
 app.use(express.static('public_html'))
